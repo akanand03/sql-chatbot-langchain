@@ -18,4 +18,4 @@ def send_message():
     return jsonify({"response": bot_response})
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)  # Change the port number here if needed
+    app.run(debug=True, port=5002)  # Change the port number here if needed
