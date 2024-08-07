@@ -45,8 +45,4 @@ class ChatWithSql:
         response = agent_executor.run(query)
         return response
 
-if __name__ == "__main__":
-    # Sample usage
-    api_key = "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"
-    obj = ChatWithSql("newuser", "newpassword", "localhost", "example_db", api_key)
-    print(obj.message("How many rows do we have in customers table?"))
+
