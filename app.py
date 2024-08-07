@@ -4,7 +4,7 @@ from ChatSql import ChatWithSql
 app = Flask(__name__)
 
 # Initialize the ChatWithSql instance
-api_key = "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"
+api_key = ""
 chat_sql = ChatWithSql("newuser", "newpassword", "localhost", "example_db", api_key)
 
 @app.route('/')
