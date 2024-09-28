@@ -12,7 +12,7 @@ Check out the demo of the SQL ChatBot in action below:
 
 - Natural Language Processing using LangChain
 - SQL Database Integration
-- Powered by OpenAI GPT-3.5
+- NLP Pretrained Model
 - Built with Flask
 
 ## Getting Started
