@@ -2,6 +2,20 @@
 
 This project demonstrates how to create and deploy an SQL ChatBot using LangChain and Flask. The ChatBot can interact with an SQL database and provide intelligent responses using OpenAI's GPT-3.5 model.
 
+## Architecture
+
+User Input
+↓
+LLM (OpenAI)
+↓
+LangChain SQL Agent
+↓
+SQL Query Generation
+↓
+Database Execution
+↓
+Return Result
+
 ## Watch the Demo
 
 Check out the demo of the SQL ChatBot in action below:
